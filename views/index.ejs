@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<title><%= title %></title>
+	<link rel = "stylesheet"  type = "text/css" href = "../css/bootstrap.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "../stylesheets/style.css">
+</head>
+<body class = "container">
+    	<h1 class = "display-4"><%= title %></h1>
+    	<p>Welcome to <%= title %></p>
+
+	<div>
+		<h1>Hello,<%= title %></h1>
+		<p>this is sayoko's web top page!!</p>
+	</div>
+
+	<!--PROFILE--!>
+	<div class = "mainVisual">
+
+		<div class = "mainVisual__body">
+			<h1 class = "mainVisual__ttl">PROFILE</h1>
+			<p class = "mainVisual__oneWord"></p>
+			<p class = "mainVisual__txt"></p>
+		</div>
+
+		<figure class = "mainVisual__ph">
+			<picture>
+				<source media = "(max-width: 767px)" srcset = "../images/profile.jpeg">
+				<source media = "(min-width: 768px)" srcset = "../images/profile.jpeg">
+				<img src = "../images/profile.jpeg" width = "1475" height = "940" alt = "">
+			</picture>
+		</figure>
+	</div>
+
+	
+	<script src = "../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src = "../dist/js/bootstrap.min.js"></script>	
+
+
+
+</body>
+</html>
